@@ -64,84 +64,87 @@ html, body {
 	font-family: @font;
 }
 
-h1 {
-	font-size: 2em;
-}
+body {
 
-h2{
-	font-weight: bold;
-	font-size: 1.5em;
-}
+	h1 {
+		font-size: 2em;
+	}
 
-header {
-	margin: 3% 0;
+	h2{
+		font-weight: bold;
+		font-size: 1.5em;
+	}
 
-	.nav {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
+	header {
+		margin: 3% 0;
 
-		a{
-		color: @color;
-		text-decoration: none;
-		font-weight: bold;}
+		.nav {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
 
-		a:hover {
-			color: black;
+			a{
+			color: @color;
+			text-decoration: none;
+			font-weight: bold;}
+
+			a:hover {
+				color: black;
+			}
 		}
 	}
-}
 
-.box {
-	margin: 3% 0;
-}
-
-.intro {
-	width: 100%;
-	display: flex;
-	
-	h3 {
-	color: @color;
-	font-weight: 600;}
-
-	.info {
-	width: 80%;}
-
-	.logo{
-		width: 20%;
-		img {
-			width: 100px;}
+	.box {
+		margin: 3% 0;
 	}
-}
 
-.skills {
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
+	.intro {
+		width: 100%;
+		display: flex;
 		
-	h3 {
-		.box ();
+		h3 {
 		color: @color;
-		font-weight: 600;
+		font-weight: 600;}
+
+		.info {
+		width: 80%;}
+
+		.logo{
+			width: 20%;
+			img {
+				width: 100px;}
+		}
 	}
 
-	.title {
-		width: 20%;
-	}
-	
-	.detail {
-		width: 40%;
-	}
-}
+	.skills {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+			
+		h3 {
+			.box ();
+			color: @color;
+			font-weight: 600;
+		}
 
-.work {
-	.skills ();
-
-	.title {
-		width: 20%;
+		.title {
+			width: 20%;
+		}
+		
+		.detail {
+			width: 40%;
+		}
 	}
 
-	.detail {
-		width: 80%;
+	.work {
+		.skills ();
+
+		.title {
+			width: 20%;
+		}
+
+		.detail {
+			width: 80%;
+		}
 	}
 }

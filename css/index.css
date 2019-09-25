@@ -137,84 +137,84 @@ body {
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
 }
-h1 {
+body h1 {
   font-size: 2em;
 }
-h2 {
+body h2 {
   font-weight: bold;
   font-size: 1.5em;
 }
-header {
+body header {
   margin: 3% 0;
 }
-header .nav {
+body header .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-header .nav a {
+body header .nav a {
   color: #11579b;
   text-decoration: none;
   font-weight: bold;
 }
-header .nav a:hover {
+body header .nav a:hover {
   color: black;
 }
-.box {
+body .box {
   margin: 3% 0;
 }
-.intro {
+body .intro {
   width: 100%;
   display: flex;
 }
-.intro h3 {
+body .intro h3 {
   color: #11579b;
   font-weight: 600;
 }
-.intro .info {
+body .intro .info {
   width: 80%;
 }
-.intro .logo {
+body .intro .logo {
   width: 20%;
 }
-.intro .logo img {
+body .intro .logo img {
   width: 100px;
 }
-.skills {
+body .skills {
   display: flex;
   width: 100%;
   justify-content: space-between;
 }
-.skills h3 {
+body .skills h3 {
   margin: 3% 0;
   color: #11579b;
   font-weight: 600;
 }
-.skills .title {
+body .skills .title {
   width: 20%;
 }
-.skills .detail {
+body .skills .detail {
   width: 40%;
 }
-.work {
+body .work {
   display: flex;
   width: 100%;
   justify-content: space-between;
 }
-.work h3 {
+body .work h3 {
   margin: 3% 0;
   color: #11579b;
   font-weight: 600;
 }
-.work .title {
+body .work .title {
   width: 20%;
 }
-.work .detail {
+body .work .detail {
   width: 40%;
 }
-.work .title {
+body .work .title {
   width: 20%;
 }
-.work .detail {
+body .work .detail {
   width: 80%;
 }
