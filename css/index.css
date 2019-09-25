@@ -180,3 +180,41 @@ header .nav a:hover {
 .intro .logo img {
   width: 100px;
 }
+.skills {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.skills h3 {
+  margin: 3% 0;
+  color: #11579b;
+  font-weight: 600;
+}
+.skills .title {
+  width: 20%;
+}
+.skills .detail {
+  width: 40%;
+}
+.work {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.work h3 {
+  margin: 3% 0;
+  color: #11579b;
+  font-weight: 600;
+}
+.work .title {
+  width: 20%;
+}
+.work .detail {
+  width: 40%;
+}
+.work .title {
+  width: 20%;
+}
+.work .detail {
+  width: 80%;
+}
