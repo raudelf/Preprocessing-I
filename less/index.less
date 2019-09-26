@@ -59,6 +59,8 @@ table {
 
 .mobile {
 	@media (max-width: 500px){
+		flex-direction: column;
+		width: 90%;
 	}
 }
 
@@ -84,7 +86,7 @@ body {
 
 	header {
 		margin: 3% 0;
-
+		.mobile();
 		.nav {
 			display: flex;
 			flex-direction: row;
@@ -96,29 +98,24 @@ body {
 			font-weight: bold;
 
 			&:hover {
-				color: black;
-			}
+				color: black;}
 			
-			.mobile () {
-				text-align: center;
-				margin: 5% 0;
-			}
-			}
 			}
 
-			@media (max-width: 500px) {
-				display: flex;
-				flex-direction: column;
-			}
+		.mobile() {
+					width: 100%;
+					margin: 0 auto;
+					text-align: center;}
+			
 		}
+
+		
 	}
+	
 
 	.box {
 		margin: 3% 0;
-
-		.mobile () {
-			flex-direction: column;
-		}
+		.mobile ();
 	}
 
 	.intro {
@@ -137,13 +134,8 @@ body {
 			img {
 				width: 100px;}
 
-			.mobile () {
-				flex-direction: column;
-			}
-		}
-
 		.mobile () {
-			flex-direction: column;
+			align-content: center;
 		}
 	}
 
@@ -178,5 +170,5 @@ body {
 			width: 80%;
 		}
 	}
-
+	}
 }
