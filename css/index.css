@@ -137,6 +137,12 @@ body {
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
 }
+@media (max-width: 500px) {
+  html,
+  body {
+    width: 80%;
+  }
+}
 body h1 {
   font-size: 2em;
 }
@@ -157,8 +163,20 @@ body header .nav a {
   text-decoration: none;
   font-weight: bold;
 }
+@media (max-width: 500px) {
+  body header .nav a {
+    text-align: center;
+    margin: 5% 0;
+  }
+}
 body header .nav a:hover {
   color: black;
+}
+@media (max-width: 500px) {
+  body header .nav {
+    display: flex;
+    flex-direction: column;
+  }
 }
 body .box {
   margin: 3% 0;
