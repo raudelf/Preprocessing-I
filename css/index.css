@@ -1,1 +1,257 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+@media (max-width: 500px) {
+  .mobile {
+    flex-direction: column;
+    width: 90%;
+  }
+}
+html,
+body {
+  height: 100%;
+  width: 1000px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 500px) {
+  html,
+  body {
+    flex-direction: column;
+    width: 90%;
+  }
+}
+body h1 {
+  font-size: 2em;
+}
+body h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+body header {
+  margin: 3% 0;
+}
+@media (max-width: 500px) {
+  body header {
+    flex-direction: column;
+    width: 90%;
+  }
+}
+body header .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body header .nav a {
+  color: #11579b;
+  text-decoration: none;
+  font-weight: bold;
+}
+body header .nav a:hover {
+  color: black;
+}
+body .box {
+  margin: 3% 0;
+}
+@media (max-width: 500px) {
+  body .box {
+    flex-direction: column;
+    width: 90%;
+  }
+}
+body .intro {
+  width: 100%;
+  display: flex;
+}
+body .intro h3 {
+  color: #11579b;
+  font-weight: 600;
+}
+body .intro .info {
+  width: 80%;
+}
+body .intro .logo {
+  width: 20%;
+}
+body .intro .logo img {
+  width: 100px;
+}
+body .intro .skills {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+body .intro .skills h3 {
+  margin: 3% 0;
+  color: #11579b;
+  font-weight: 600;
+}
+@media (max-width: 500px) {
+  body .intro .skills h3 {
+    flex-direction: column;
+    width: 90%;
+  }
+}
+body .intro .skills .title {
+  width: 20%;
+}
+body .intro .skills .detail {
+  width: 40%;
+}
+body .intro .work {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+body .intro .work h3 {
+  margin: 3% 0;
+  color: #11579b;
+  font-weight: 600;
+}
+@media (max-width: 500px) {
+  body .intro .work h3 {
+    flex-direction: column;
+    width: 90%;
+  }
+}
+body .intro .work .title {
+  width: 20%;
+}
+body .intro .work .detail {
+  width: 40%;
+}
+body .intro .work .title {
+  width: 20%;
+}
+body .intro .work .detail {
+  width: 80%;
+}
