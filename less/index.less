@@ -86,7 +86,7 @@ body {
 
 	header {
 		margin: 3% 0;
-		.mobile();
+		// .mobile();
 		.nav {
 			display: flex;
 			flex-direction: row;
@@ -100,12 +100,15 @@ body {
 			&:hover {
 				color: black;}
 			
+			@media (max-width: 500px) {
+				margin: 4% 0;
+			}
 			}
 
-		.mobile() {
+		@media (max-width: 500px) {
 					width: 100%;
-					margin: 0 auto;
-					text-align: center;}
+					text-align: center;
+					flex-direction: column;}
 			
 		}
 

@@ -160,12 +160,6 @@ body h2 {
 body header {
   margin: 3% 0;
 }
-@media (max-width: 500px) {
-  body header {
-    flex-direction: column;
-    width: 90%;
-  }
-}
 body header .nav {
   display: flex;
   flex-direction: row;
@@ -178,6 +172,18 @@ body header .nav a {
 }
 body header .nav a:hover {
   color: black;
+}
+@media (max-width: 500px) {
+  body header .nav a {
+    margin: 4% 0;
+  }
+}
+@media (max-width: 500px) {
+  body header .nav {
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
 }
 body .box {
   margin: 3% 0;
